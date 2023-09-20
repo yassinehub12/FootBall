@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Ubuntu:ital@1&display=swap');
+a{
+  color: white;
+  text-decoration: none;
+}
+*{
+  font-family: 'Ubuntu', Sans-Serif;
+  padding: 0;
+  margin: 0;
+}
+.log{
+  width: 25%;
+  height: 50px;
+  position: absolute;
+  top: 1%;
+}
+body{
+  background: linear-gradient(black,red);
+  height: 100vh;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+ul{
+  list-style: none;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  
+}
+.txt{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: White;
+}
+
+.hakimi{
+  position: absolute;
+  width: 240px;
+  right: 21%;
+  top: 58%;
+}
+ul a{
+  border-bottom: 2px solid transparent;
+}
+ul a:hover{
+  border-bottom-color: green;
+}
+p{
+  color: white;
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  
+}
+button{
+  font-size: 20px;
+  position: absolute;
+  top: 45%;
+  left: 38%;
+  padding: 5px 14px;
+  border-radius: 10px;
+  border: 2px solid transparent;
+}
